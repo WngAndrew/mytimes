@@ -1,6 +1,6 @@
 // /src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './global_components/NavBar';
 import HomePage from './global_components/HomePage';
 import Wordle from './wordle/components/Wordle';
