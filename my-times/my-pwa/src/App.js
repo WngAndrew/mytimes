@@ -14,9 +14,9 @@ function App() {
   return (
     <Router>
       <NavBar /> 
-      {/* Routes */}
+      {/* Routes*/}
       <Routes>
-        <Route path="/" element={<HomePage />} /> {/* HomePage Component */}
+        <Route path="/" element={<HomePage />} /> 
         <Route path="/wordle" element={<Wordle />} />
         <Route path="/crossword" element={<Crossword />} />
         <Route path="/connections" element={ <Connections />}/>
