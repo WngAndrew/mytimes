@@ -1,0 +1,96 @@
+.sudoku-game {
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    margin-top: 20px;
+  }
+
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .errors {
+    color: coral;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  
+  .tile {
+    width: 50px; /* Increased width slightly for consistency */
+    height: 50px;
+    box-sizing: border-box; /* Ensure padding doesn't increase size */
+    border: 1px solid lightgray;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent text overflow */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tile-start {
+    background-color: #f0f0f0;
+  }
+  
+  .horizontal-line {
+    border-bottom: 2px solid black;
+  }
+  
+  .vertical-line {
+    border-right: 2px solid black;
+  }
+  
+  .mode-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+ .row {
+    margin: 0;
+    padding: 0;
+ }
+
+  .digits {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    margin: 20px auto;
+    gap: 5px;
+  }
+  
+  .number {
+    width: 50px; /* Adjusted width to match tile size */
+    height: 50px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .number-selected {
+    background-color: gray;
+    color: white;
+  }
+  
+  .auto-candidate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .auto-candidate input {
+    margin-right: 5px;
+  }
+  

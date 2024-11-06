@@ -1,0 +1,72 @@
+.keyboard {
+  font-size: 1.25rem;
+  margin-top: 1.5em;
+  margin-bottom: 20px; /* Add bottom margin */
+  margin-left: 10px;  /* Add left margin */
+  margin-right: 10px; /* Add right margin */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .keyRow {
+      display: flex;
+      gap: 6px;
+      justify-content: center;
+  }
+
+  .key {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #818384;
+      border-radius: 5px;
+      width: 40px;
+      height: 60px;
+      font-weight: 600;
+      transition: background-color 0.3s linear;
+      cursor: pointer;
+  }
+
+  .key--absent {
+      background-color: #787c7e;
+  }
+
+  .key--present {
+      background-color: #b59f3b;
+  }
+
+  .key--correct {
+      background-color: #538d4e;
+  }
+
+  .enter,
+  .backspace {
+      font-size: 0.75rem;
+      width: 60px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .keyboard {
+      font-size: 1rem;
+      gap: 6px;
+      margin-left: 5px;   /* Adjust for smaller screens */
+      margin-right: 5px;
+      margin-bottom: 10px;
+
+      .keyRow {
+          gap: 4px;
+      }
+
+      .key {
+          width: 30px;
+          height: 40px;
+      }
+
+      .enter,
+      .backspace {
+          font-size: 0.75rem;
+          width: 60px;
+      }
+  }
+}

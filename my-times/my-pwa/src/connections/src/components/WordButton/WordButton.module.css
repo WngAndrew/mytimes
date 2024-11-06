@@ -1,0 +1,36 @@
+
+
+.growShrink {
+  /*Tell this element which properties to animate if something changes
+  We are saying all properties will animate when changed seconds*/
+  transition: all 0.4s;
+}
+
+.growShrink[data-state="on"] {
+  transform: scale(1.05);
+}
+
+.button {
+  width: 91px; /* Set a fixed width */
+  height: 91px; /* Set the same height to make it a square */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px; /* Adjust or remove if you want sharp corners */
+  background-color: #efefe6; /* Adjust to your preferred background color */
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px; /* Adjust font size to fit longer words */
+  color: #000; /* Adjust text color as needed */
+  overflow: hidden; /* Hide overflow for uniform square look */
+  text-align: center; /* Center align text */
+  padding: 5px; /* Add padding to ensure text doesn’t touch edges */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+}
+
+
+.item:hover {
+  cursor: pointer;
+}
+
+
