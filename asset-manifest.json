@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mytimes/static/css/main.f055b0a5.css",
+    "main.js": "/mytimes/static/js/main.680b898b.js",
+    "index.html": "/mytimes/index.html",
+    "main.f055b0a5.css.map": "/mytimes/static/css/main.f055b0a5.css.map",
+    "main.680b898b.js.map": "/mytimes/static/js/main.680b898b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f055b0a5.css",
+    "static/js/main.680b898b.js"
+  ]
+}
